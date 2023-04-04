@@ -4,7 +4,7 @@ This is a fork of pylayes for use in the NASA DGCR Project
 # Installation
 Clone this repo and follow these installation instructions. These instructions worked for Ubuntu 20.04.5 LTS.
 
-conda create --name pylayers python=3.5
+conda create --name pylayers python=3.5 \
 conda activate pylayers
 cd pylayers
 pip install -r requirements.txt
